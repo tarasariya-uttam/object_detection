@@ -4,3 +4,4 @@ opencv-python-headless==4.4.0.44
 tensorflow ==  2.5.0
 Flask==2.1.2
 pyramid==2.0
+opencv-python==3.4.2.16
