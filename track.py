@@ -3,6 +3,13 @@ from pyramid.config import Configurator
 from pyramid.response import Response
 import os
 
+#sherly's libs
+
+import cv2
+import numpy as np
+from object_detection import ObjectDetection
+from deep_sort.deep_sort import Deep
+
 def hello_world(request):
     name = os.environ.get('NAME')
     if name == None or len(name) == 0:
