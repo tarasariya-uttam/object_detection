@@ -5,7 +5,7 @@ import os
 
 #sherly's libs
 
-import cv2
+#import cv2
 import numpy as np
 from object_detection import ObjectDetection
 from deep_sort.deep_sort import Deep
