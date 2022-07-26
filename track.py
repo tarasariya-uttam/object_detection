@@ -5,13 +5,9 @@ import os
 
 #sherly's libs
 
-#import cv2
 import numpy as np
 from object_detection import ObjectDetection
 from deep_sort.deep_sort import Deep
-
-# Load Object Detection
-
 
 def hello_world(request):
     name = os.environ.get('NAME')
