@@ -6,7 +6,7 @@ import os
 #sherly's libs
 
 import numpy as np
-from object_detection import ObjectDetection
+#from object_detection import ObjectDetection
 from deep_sort.deep_sort import Deep
 
 def hello_world(request):
