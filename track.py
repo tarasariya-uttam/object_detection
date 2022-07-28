@@ -31,11 +31,11 @@ def detect(model, frame):
 
   return class_ids, scores, boxes
 
-yolov4 = ObjectDetection("yolov4.weights", "dnn_model/yolov4.cfg")
-yolov4.load_class_names("dnn_model/classes.txt")
-yolov4.load_detection_model(image_size=832, # 416 - 1280
-                        nmsThreshold=0.4,
-                        confThreshold=0.3)
+yolov4 = ObjectDetection("yolov4.weights", "yolov4.cfg")
+#yolov4.load_class_names("dnn_model/classes.txt")
+#yolov4.load_detection_model(image_size=832, # 416 - 1280
+#                        nmsThreshold=0.4,
+#                        confThreshold=0.3)
 
 def hello_world(request):
     name = os.environ.get('NAME')
